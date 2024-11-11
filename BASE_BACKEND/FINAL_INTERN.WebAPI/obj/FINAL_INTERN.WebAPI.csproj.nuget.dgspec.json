@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.WebAPI\\FINAL_INTERN.WebAPI.csproj": {}
+    "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.WebAPI\\FINAL_INTERN.WebAPI.csproj": {}
   },
   "projects": {
-    "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Business\\FINAL_INTERN.Business.csproj": {
+    "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Business\\FINAL_INTERN.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Business\\FINAL_INTERN.Business.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Business\\FINAL_INTERN.Business.csproj",
         "projectName": "FINAL_INTERN.Business",
-        "projectPath": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Business\\FINAL_INTERN.Business.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Business\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Business\\FINAL_INTERN.Business.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Business\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Data\\FINAL_INTERN.Data.csproj": {
-                "projectPath": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Data\\FINAL_INTERN.Data.csproj"
+              "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Data\\FINAL_INTERN.Data.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Data\\FINAL_INTERN.Data.csproj"
               },
-              "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj": {
-                "projectPath": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj"
+              "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj"
               }
             }
           }
@@ -98,17 +102,21 @@
         }
       }
     },
-    "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Data\\FINAL_INTERN.Data.csproj": {
+    "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Data\\FINAL_INTERN.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Data\\FINAL_INTERN.Data.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Data\\FINAL_INTERN.Data.csproj",
         "projectName": "FINAL_INTERN.Data",
-        "projectPath": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Data\\FINAL_INTERN.Data.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Data\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Data\\FINAL_INTERN.Data.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -123,8 +131,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj": {
-                "projectPath": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj"
+              "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj"
               }
             }
           }
@@ -189,17 +197,21 @@
         }
       }
     },
-    "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj": {
+    "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj",
         "projectName": "FINAL_INTERN.Models",
-        "projectPath": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Models\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -276,17 +288,21 @@
         }
       }
     },
-    "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.WebAPI\\FINAL_INTERN.WebAPI.csproj": {
+    "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.WebAPI\\FINAL_INTERN.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.WebAPI\\FINAL_INTERN.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.WebAPI\\FINAL_INTERN.WebAPI.csproj",
         "projectName": "FINAL_INTERN.WebAPI",
-        "projectPath": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.WebAPI\\FINAL_INTERN.WebAPI.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.WebAPI\\FINAL_INTERN.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -301,14 +317,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Business\\FINAL_INTERN.Business.csproj": {
-                "projectPath": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Business\\FINAL_INTERN.Business.csproj"
+              "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Business\\FINAL_INTERN.Business.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Business\\FINAL_INTERN.Business.csproj"
               },
-              "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Data\\FINAL_INTERN.Data.csproj": {
-                "projectPath": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Data\\FINAL_INTERN.Data.csproj"
+              "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Data\\FINAL_INTERN.Data.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Data\\FINAL_INTERN.Data.csproj"
               },
-              "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj": {
-                "projectPath": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj"
+              "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj"
               }
             }
           }

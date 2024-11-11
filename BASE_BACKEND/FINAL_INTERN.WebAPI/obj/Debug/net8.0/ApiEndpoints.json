@@ -1,0 +1,97 @@
+[
+  {
+    "ContainingType": "FINAL_INTERN.WebAPI.Controllers.AdminController",
+    "Method": "GetAllAccount",
+    "RelativePath": "api/Admin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FINAL_INTERN.WebAPI.Controllers.AdminController",
+    "Method": "AddAccount",
+    "RelativePath": "api/Admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "account",
+        "Type": "FINAL_INTERN.Models.Models.Account",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FINAL_INTERN.WebAPI.Controllers.AdminController",
+    "Method": "GetAccountByID",
+    "RelativePath": "api/Admin/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FINAL_INTERN.WebAPI.Controllers.AdminController",
+    "Method": "DeleteAccount",
+    "RelativePath": "api/Admin/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FINAL_INTERN.WebAPI.Controllers.AdminController",
+    "Method": "CancelAccount",
+    "RelativePath": "api/Admin/accounts/{id}/cancel",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FINAL_INTERN.WebAPI.Controllers.AdminController",
+    "Method": "GrantPermission",
+    "RelativePath": "api/Admin/accounts/{id}/grant-permission",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newRole",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

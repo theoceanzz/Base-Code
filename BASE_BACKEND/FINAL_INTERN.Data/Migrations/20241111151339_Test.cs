@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace FINAL_INTERN.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class Test : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -15,13 +15,12 @@ namespace FINAL_INTERN.Data.Migrations
                 name: "CategoriesOfCar",
                 columns: table => new
                 {
-                    ID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    CategoryName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false)
+                    ID = table.Column<int>(type: "int", nullable: false),
+                    CategoryName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK__Categori__3214EC27DBCA6BBE", x => x.ID);
+                    table.PrimaryKey("PK__Categori__3214EC27F184C55A", x => x.ID);
                 });
 
             migrationBuilder.CreateTable(
@@ -29,11 +28,11 @@ namespace FINAL_INTERN.Data.Migrations
                 columns: table => new
                 {
                     ID = table.Column<int>(type: "int", nullable: false),
-                    NameOfRole = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false)
+                    NameOfRole = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK__Roles__3214EC278E0ADF73", x => x.ID);
+                    table.PrimaryKey("PK__Roles__3214EC27BB563027", x => x.ID);
                 });
 
             migrationBuilder.CreateTable(
@@ -42,23 +41,23 @@ namespace FINAL_INTERN.Data.Migrations
                 {
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Model = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Model = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true),
                     Years = table.Column<DateTime>(type: "date", nullable: true),
                     Price = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
-                    Transmission = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    FuelType = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
+                    Transmission = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true),
+                    FuelType = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
                     StockQuantit = table.Column<int>(type: "int", nullable: true, defaultValue: 5),
-                    description = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
-                    img = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    alt = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    description = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),
+                    img = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: true),
+                    alt = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true),
                     isActive = table.Column<bool>(type: "bit", nullable: true),
-                    CategoriesOfCar_ID = table.Column<int>(type: "int", nullable: true)
+                    CategoriesOfCar_ID = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK__CarInfos__3214EC27A1D9C638", x => x.ID);
+                    table.PrimaryKey("PK__CarInfos__3214EC27723BAFE4", x => x.ID);
                     table.ForeignKey(
-                        name: "FK__CarInfos__Catego__3F466844",
+                        name: "FK__CarInfos__Catego__2C3393D0",
                         column: x => x.CategoriesOfCar_ID,
                         principalTable: "CategoriesOfCar",
                         principalColumn: "ID");
@@ -74,20 +73,22 @@ namespace FINAL_INTERN.Data.Migrations
                     Username = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
                     Password = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
                     Gender = table.Column<int>(type: "int", nullable: true),
-                    FirstName = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
-                    LastName = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
-                    Address = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
+                    FirstName = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
+                    LastName = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
+                    Address = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
                     Birthday = table.Column<DateTime>(type: "date", nullable: true),
-                    img = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    alt = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    img = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: true),
+                    alt = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true),
                     isActive = table.Column<bool>(type: "bit", nullable: true),
-                    Role_ID = table.Column<int>(type: "int", nullable: true)
+                    Role_ID = table.Column<int>(type: "int", nullable: false),
+                    resetPasswordToken = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: true),
+                    resetTokenExpiry = table.Column<DateTime>(type: "datetime", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK__Accounts__3214EC2721221F77", x => x.ID);
+                    table.PrimaryKey("PK__Accounts__3214EC2740A22C18", x => x.ID);
                     table.ForeignKey(
-                        name: "FK__Accounts__Role_I__398D8EEE",
+                        name: "FK__Accounts__resetT__267ABA7A",
                         column: x => x.Role_ID,
                         principalTable: "Roles",
                         principalColumn: "ID");
@@ -99,17 +100,17 @@ namespace FINAL_INTERN.Data.Migrations
                 {
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Account_ID = table.Column<int>(type: "int", nullable: true),
-                    NameOfCustomer = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    date = table.Column<string>(type: "varchar(40)", unicode: false, maxLength: 40, nullable: false),
-                    email = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Account_ID = table.Column<int>(type: "int", nullable: false),
+                    NameOfCustomer = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: true),
+                    dates = table.Column<DateTime>(type: "datetime", nullable: true),
+                    email = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: true),
                     status = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK__Orders__3214EC27A35FB73B", x => x.ID);
+                    table.PrimaryKey("PK__Orders__3214EC272AE933FE", x => x.ID);
                     table.ForeignKey(
-                        name: "FK__Orders__Account___4222D4EF",
+                        name: "FK__Orders__Account___2F10007B",
                         column: x => x.Account_ID,
                         principalTable: "Accounts",
                         principalColumn: "ID");
@@ -121,28 +122,28 @@ namespace FINAL_INTERN.Data.Migrations
                 {
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Order_ID = table.Column<int>(type: "int", nullable: true),
-                    Account_ID = table.Column<int>(type: "int", nullable: true),
-                    Car_ID = table.Column<int>(type: "int", nullable: true),
-                    NameOfCar = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Order_ID = table.Column<int>(type: "int", nullable: false),
+                    Account_ID = table.Column<int>(type: "int", nullable: false),
+                    Car_ID = table.Column<int>(type: "int", nullable: false),
+                    NameOfCar = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: true),
                     price = table.Column<int>(type: "int", nullable: true),
                     total = table.Column<double>(type: "float", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK__OrderDet__3214EC272D446259", x => x.ID);
+                    table.PrimaryKey("PK__OrderDet__3214EC2722E0846C", x => x.ID);
                     table.ForeignKey(
-                        name: "FK__OrderDeta__Accou__45F365D3",
+                        name: "FK__OrderDeta__Accou__32E0915F",
                         column: x => x.Account_ID,
                         principalTable: "Accounts",
                         principalColumn: "ID");
                     table.ForeignKey(
-                        name: "FK__OrderDeta__Car_I__46E78A0C",
+                        name: "FK__OrderDeta__Car_I__33D4B598",
                         column: x => x.Car_ID,
                         principalTable: "CarInfos",
                         principalColumn: "ID");
                     table.ForeignKey(
-                        name: "FK__OrderDeta__Order__44FF419A",
+                        name: "FK__OrderDeta__Order__31EC6D26",
                         column: x => x.Order_ID,
                         principalTable: "Orders",
                         principalColumn: "ID");

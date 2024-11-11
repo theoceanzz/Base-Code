@@ -1,5 +1,9 @@
 
+using FINAL_INTERN.Business.AdminService;
+using FINAL_INTERN.Bussiness.BaseService;
 using FINAL_INTERN.Data;
+using FINAL_INTERN.Data.AdminRepository;
+using FINAL_INTERN.Data.BaseRepository;
 using FINAL_INTERN.Models.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -24,7 +28,10 @@ namespace FINAL_INTERN.WebAPI
 
             builder.Services.AddDbContext<finalInternDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
+            builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
+            builder.Services.AddScoped(typeof(IBaseService<>), typeof(BaseService<>));
+            builder.Services.AddScoped<IAdminRepository, AdminRepository>();
+            builder.Services.AddScoped<IAdminService,AdminService>();
 
             var jwtSettings = builder.Configuration.GetSection("JwtSettings");
 
@@ -33,6 +40,7 @@ namespace FINAL_INTERN.WebAPI
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
                 options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
             });
+            
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                     .AddJwtBearer(options =>
                     {

@@ -28,8 +28,4 @@
     <ProjectReference Include="..\FINAL_INTERN.Models\FINAL_INTERN.Models.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>

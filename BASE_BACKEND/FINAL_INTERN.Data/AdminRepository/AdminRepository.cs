@@ -1,0 +1,17 @@
+﻿using FINAL_INTERN.Data.BaseRepository;
+using FINAL_INTERN.Models.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FINAL_INTERN.Data.AdminRepository
+{
+    public class AdminRepository : BaseRepository<Account>, IAdminRepository
+    {
+        public AdminRepository(finalInternDbContext context) : base(context)
+        {
+        }
+    }
+}

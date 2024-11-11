@@ -4092,19 +4092,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj",
       "projectName": "FINAL_INTERN.Models",
-      "projectPath": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Models\\obj\\",
+      "projectPath": "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ADMIN\\source\\repos\\Base-Code\\BASE_BACKEND\\FINAL_INTERN.Models\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

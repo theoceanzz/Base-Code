@@ -17,3 +17,23 @@ D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Business\obj\Debug\net8.0\refint\FINAL_
 D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Business\obj\Debug\net8.0\FINAL_INTERN.Business.pdb
 D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Business\obj\Debug\net8.0\FINAL_INTERN.Business.genruntimeconfig.cache
 D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Business\obj\Debug\net8.0\ref\FINAL_INTERN.Business.dll
+C:\Users\ADMIN\source\repos\Base-Code\BASE_BACKEND\FINAL_INTERN.Business\bin\Debug\net8.0\FINAL_INTERN.Business.deps.json
+C:\Users\ADMIN\source\repos\Base-Code\BASE_BACKEND\FINAL_INTERN.Business\bin\Debug\net8.0\FINAL_INTERN.Business.runtimeconfig.json
+C:\Users\ADMIN\source\repos\Base-Code\BASE_BACKEND\FINAL_INTERN.Business\bin\Debug\net8.0\FINAL_INTERN.Business.dll
+C:\Users\ADMIN\source\repos\Base-Code\BASE_BACKEND\FINAL_INTERN.Business\bin\Debug\net8.0\FINAL_INTERN.Business.pdb
+C:\Users\ADMIN\source\repos\Base-Code\BASE_BACKEND\FINAL_INTERN.Business\bin\Debug\net8.0\FINAL_INTERN.Data.dll
+C:\Users\ADMIN\source\repos\Base-Code\BASE_BACKEND\FINAL_INTERN.Business\bin\Debug\net8.0\FINAL_INTERN.Models.dll
+C:\Users\ADMIN\source\repos\Base-Code\BASE_BACKEND\FINAL_INTERN.Business\bin\Debug\net8.0\FINAL_INTERN.Data.pdb
+C:\Users\ADMIN\source\repos\Base-Code\BASE_BACKEND\FINAL_INTERN.Business\bin\Debug\net8.0\FINAL_INTERN.Models.pdb
+C:\Users\ADMIN\source\repos\Base-Code\BASE_BACKEND\FINAL_INTERN.Business\obj\Debug\net8.0\FINAL_INTERN.Business.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\Base-Code\BASE_BACKEND\FINAL_INTERN.Business\obj\Debug\net8.0\FINAL_INTERN.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\Base-Code\BASE_BACKEND\FINAL_INTERN.Business\obj\Debug\net8.0\FINAL_INTERN.Business.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\Base-Code\BASE_BACKEND\FINAL_INTERN.Business\obj\Debug\net8.0\FINAL_INTERN.Business.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\Base-Code\BASE_BACKEND\FINAL_INTERN.Business\obj\Debug\net8.0\FINAL_INTERN.Business.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\Base-Code\BASE_BACKEND\FINAL_INTERN.Business\obj\Debug\net8.0\FINAL_INTERN.Business.sourcelink.json
+C:\Users\ADMIN\source\repos\Base-Code\BASE_BACKEND\FINAL_INTERN.Business\obj\Debug\net8.0\FINAL_IN.A4627993.Up2Date
+C:\Users\ADMIN\source\repos\Base-Code\BASE_BACKEND\FINAL_INTERN.Business\obj\Debug\net8.0\FINAL_INTERN.Business.dll
+C:\Users\ADMIN\source\repos\Base-Code\BASE_BACKEND\FINAL_INTERN.Business\obj\Debug\net8.0\refint\FINAL_INTERN.Business.dll
+C:\Users\ADMIN\source\repos\Base-Code\BASE_BACKEND\FINAL_INTERN.Business\obj\Debug\net8.0\FINAL_INTERN.Business.pdb
+C:\Users\ADMIN\source\repos\Base-Code\BASE_BACKEND\FINAL_INTERN.Business\obj\Debug\net8.0\FINAL_INTERN.Business.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\Base-Code\BASE_BACKEND\FINAL_INTERN.Business\obj\Debug\net8.0\ref\FINAL_INTERN.Business.dll
